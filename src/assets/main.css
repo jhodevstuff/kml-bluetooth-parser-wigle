@@ -1,0 +1,14 @@
+@import './base.css';
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #16423C;
+}
+
+@media (min-width: 428px) {
+  /* Tablet & Desktop VP */
+}
