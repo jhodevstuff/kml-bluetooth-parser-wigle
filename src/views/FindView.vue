@@ -31,7 +31,7 @@
         <p><strong>Type:</strong> {{ device.type }}</p>
         <p><strong>Attribute:</strong> {{ device.attributes }}</p>
         <p><strong>Date / Time:</strong> {{ device.localTime }}</p>
-        <a :href="device.mapLink" target="_blank">Open in Google Maps</a>
+        <p><strong>Location:</strong><a :href="device.mapLink" target="_blank">{{ device.lat }}, {{ device.lon }}</a></p>
       </div>
     </div>
   </div>
